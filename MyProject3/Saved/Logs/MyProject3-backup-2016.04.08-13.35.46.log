@@ -1,0 +1,1241 @@
+﻿[2016.04.08-18.03.48:246][  0]Log file open, 04/08/16 11:03:48
+[2016.04.08-18.03.48:246][  0]LogInit:Display: Running engine for game: MyProject3
+[2016.04.08-18.03.48:246][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.08-18.03.48:246][  0]LogInit:Display: RandInit(1858591542) SRandInit(1858591543).
+[2016.04.08-18.03.48:246][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.04.08-18.03.48:246][  0]LogStats: Stats thread started at 0.078898
+[2016.04.08-18.03.48:246][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-18.03.48:246][  0]LogInit: API Version: 2758231
+[2016.04.08-18.03.48:246][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.08-18.03.48:246][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.08-18.03.48:246][  0]LogInit: Build Configuration: Development
+[2016.04.08-18.03.48:246][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.08-18.03.48:246][  0]LogInit: Command line:  
+[2016.04.08-18.03.48:246][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.08-18.03.48:246][  0]LogInit: Rocket: 1
+[2016.04.08-18.03.48:252][  0]LogInit: Using libcurl 7.41.0
+[2016.04.08-18.03.48:252][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.08-18.03.48:252][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.08-18.03.48:252][  0]LogInit:  - other features:
+[2016.04.08-18.03.48:252][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.08-18.03.48:252][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.08-18.03.48:252][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.08-18.03.48:252][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.08-18.03.48:252][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.08-18.03.48:252][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.08-18.03.48:252][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.08-18.03.48:252][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.08-18.03.48:252][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.08-18.03.48:252][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.08-18.03.48:257][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.08-18.03.48:262][  0]LogInit: Object subsystem initialized
+[2016.04.08-18.03.48:263][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-18.03.48:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.08-18.03.48:276][  0]LogInit: Computer: DYLANCRONKHITE
+[2016.04.08-18.03.48:276][  0]LogInit: User: Dylan
+[2016.04.08-18.03.48:276][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.04.08-18.03.48:276][  0]LogInit: High frequency timer resolution =3.222658 MHz
+[2016.04.08-18.03.48:276][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.08-18.03.48:276][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-18.03.48:276][  0]LogMemory: Process Physical Memory: 56.75 MB used, 56.75 MB peak
+[2016.04.08-18.03.48:276][  0]LogMemory: Process Virtual Memory: 59.77 MB used, 59.77 MB peak
+[2016.04.08-18.03.48:276][  0]LogMemory: Physical Memory: 7884.12 MB used, 16276.64 MB total
+[2016.04.08-18.03.48:276][  0]LogMemory: Virtual Memory: 386.80 MB used, 134217728.00 MB total
+[2016.04.08-18.03.48:307][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.08-18.03.48:699][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.04.08-18.03.48:699][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8138MB of shared system memory, 3 output[s]
+[2016.04.08-18.03.48:700][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.08-18.03.48:700][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8138MB of shared system memory, 0 output[s]
+[2016.04.08-18.03.48:700][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.08-18.03.48:709][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.08-18.03.48:709][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.08-18.03.48:719][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.08-18.03.48:734][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Intermediate/Shaders/WorkingDirectory/61848/).
+[2016.04.08-18.03.48:734][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan/AppData/Local/Temp/UnrealShaderWorkingDir/14E92BF34F2EE05BFC4526B47F46133D/'.
+[2016.04.08-18.03.48:734][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.08-18.03.49:713][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.08-18.03.49:717][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.08-18.03.49:721][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.08-18.03.49:725][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.08-18.03.49:729][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.08-18.03.49:731][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.08-18.03.49:734][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.08-18.03.49:737][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.08-18.03.49:739][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.08-18.03.49:742][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.08-18.03.49:745][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.08-18.03.49:750][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.08-18.03.49:750][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.08-18.03.49:751][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.08-18.03.49:770][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.08-18.03.49:772][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.08-18.03.49:774][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.08-18.03.49:780][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.08-18.03.49:780][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.08-18.03.49:855][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.08-18.03.50:020][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/Dylan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-18.03.50:020][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dylan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.08-18.03.50:020][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.08-18.03.50:020][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.08-18.03.50:020][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.08-18.03.50:020][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.08-18.03.50:072][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.08-18.03.50:084][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.08-18.03.50:983][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-18.03.50:985][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.08-18.03.51:073][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.08-18.03.51:073][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.08-18.03.51:251][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.08-18.03.52:863][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.08-18.03.52:976][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.04.08-18.03.53:101][  0]SourceControl: Info Source control is disabled
+[2016.04.08-18.03.53:127][  0]SourceControl: Info Source control is disabled
+[2016.04.08-18.03.53:136][  0]SourceControl: Info Source control is disabled
+[2016.04.08-18.03.53:145][  0]SourceControl: Info Source control is disabled
+[2016.04.08-18.03.53:350][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.08-18.03.53:350][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.08-18.03.53:399][  0]LogEngine: Initializing Engine...
+[2016.04.08-18.03.53:401][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-18.03.53:410][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.08-18.03.53:501][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.08-18.03.53:512][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-18.03.53:528][  0]LogInit: FAudioDevice initialized.
+[2016.04.08-18.03.53:544][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Dylan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-18.03.53:550][  0]LogInit: Texture streaming: Enabled
+[2016.04.08-18.03.53:555][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.08-18.03.53:555][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-18.03.53:555][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a78eb8014ef70cd8b03b5bb24a36d29d|ac59d151ef9049fc94382fb34f909f04|98f6e7c3-9a03-43c0-a7bc-b4ac692b48c2
+[2016.04.08-18.03.53:555][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.08-18.03.53:568][  0]LogInit: Transaction tracking system initialized
+[2016.04.08-18.03.53:592][  0]BlueprintLog: New page: Editor Load
+[2016.04.08-18.03.53:670][  0]LocalizationService: Info Localization service is disabled
+[2016.04.08-18.03.53:748][  0]LogConsoleResponse:Display: 
+[2016.04.08-18.03.53:840][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.08-18.03.53:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Content/' took 0.02s
+[2016.04.08-18.03.53:894][  0]SourceControl: Info Source control is disabled
+[2016.04.08-18.03.53:894][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.08-18.03.53:894][  0]LightingResults: New page: Lighting Build
+[2016.04.08-18.03.53:897][  0]MapCheck: New page: Map Check
+[2016.04.08-18.03.53:897][  0]LightingResults: New page: Lighting Build
+[2016.04.08-18.03.53:904][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020819276AC0
+[2016.04.08-18.03.54:313][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-18.03.54:313][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0006.57] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 0 ms]
+[2016.04.08-18.03.54:313][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0006.57] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-18.03.54:313][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0006.57] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-18.03.54:314][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-18.03.54:314][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0006.57] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 0 ms]
+[2016.04.08-18.03.54:314][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0006.57] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-18.03.54:314][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0006.57] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-18.03.55:301][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.04.03:335][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.08-18.04.03:677][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.08-18.04.03:722][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.69ms to complete.
+[2016.04.08-18.04.03:723][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 9.828
+[2016.04.08-18.04.03:858][  0]LogCollectionManager: Loaded 0 collections in 0.001620 seconds
+[2016.04.08-18.04.03:907][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Collections/' took 0.01s
+[2016.04.08-18.04.03:907][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Developers/Dylan/Collections/' took 0.01s
+[2016.04.08-18.04.03:907][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Collections/' took 0.01s
+[2016.04.08-18.04.03:907][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.08-18.04.03:913][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1893 classes and 338 folders.
+[2016.04.08-18.04.03:918][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.08-18.04.04:108][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.08-18.04.04:111][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.04.08-18.04.04:167][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.08-18.04.04:170][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.08-18.04.04:192][  0]LogLoad: Full Startup: 16.45 seconds (BP compile: 0.14 seconds)
+[2016.04.08-18.04.04:203][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-18.04.04:261][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.08-18.04.04:368][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.04.08-18.04.04:409][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.08-18.04.04:548][  4]LogAssetRegistry: Asset discovery search completed in 11.5837 seconds
+[2016.04.08-18.04.04:548][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.08-18.04.04:549][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.04.08-18.04.25:628][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Materials/M_stoneEdges" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stoneEdges.uasset" SILENT=true
+[2016.04.08-18.04.25:643][500]LogSavePackage: Save=10.613599ms
+[2016.04.08-18.04.25:643][500]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stoneEdges08F40D234FD7887CC886449D709736C8.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stoneEdges.uasset'
+[2016.04.08-18.04.25:644][500]LogSavePackage: Total save time: 14.685079ms
+[2016.04.08-18.04.25:644][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stoneEdges.uasset
+[2016.04.08-18.04.25:660][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Materials/M_stone" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stone.uasset" SILENT=true
+[2016.04.08-18.04.25:672][500]LogSavePackage: Save=10.726549ms
+[2016.04.08-18.04.25:672][500]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stone4700CFE143B382EBF703CEB53EDDCDF2.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stone.uasset'
+[2016.04.08-18.04.25:674][500]LogSavePackage: Total save time: 12.372088ms
+[2016.04.08-18.04.25:674][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stone.uasset
+[2016.04.08-18.04.25:896][500]LogSavePackage: Save=9.540572ms
+[2016.04.08-18.04.25:896][500]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_singleA52D369D47B976D280B8979430896D99.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_single.uasset'
+[2016.04.08-18.04.25:897][500]LogSavePackage: Total save time: 20.277672ms
+[2016.04.08-18.04.25:897][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_single.uasset
+[2016.04.08-18.04.25:911][500]LogSavePackage: Save=3.983358ms
+[2016.04.08-18.04.25:911][500]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_single1C4DDB1A424CAA66F1D91EB26068C3B1.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_single.uasset'
+[2016.04.08-18.04.25:912][500]LogSavePackage: Total save time: 9.815190ms
+[2016.04.08-18.04.25:912][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_single.uasset
+[2016.04.08-18.04.43:349][461]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_floor_small.fbx)
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: Material, ItemCount : 5
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: AnimationCurve, ItemCount : 18
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: Model, ItemCount : 2
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.08-18.04.43:363][461]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.04.08-18.04.43:420][461]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_floor_small.fbx
+[2016.04.08-18.04.43:489][461]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-18.04.45:976][461]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_floor_small.fbx
+[2016.04.08-18.04.46:045][461]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-18.04.46:067][461]LogLinker:Warning: Can't find file '/Game/Graphics/Models/M_stone'
+[2016.04.08-18.04.46:067][461]LogLinker:Warning: Can't find file '/Game/Graphics/Models/M_stone'
+[2016.04.08-18.04.46:080][461]LogMaterial: Missing cached shader map for material M_stone, compiling. 
+[2016.04.08-18.04.46:160][461]LogLinker:Warning: Can't find file '/Game/Graphics/Models/M_stoneEdges'
+[2016.04.08-18.04.46:160][461]LogLinker:Warning: Can't find file '/Game/Graphics/Models/M_stoneEdges'
+[2016.04.08-18.04.46:174][461]LogMaterial: Missing cached shader map for material M_stoneEdges, compiling. 
+[2016.04.08-18.04.46:200][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh
+[2016.04.08-18.04.46:297][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh_1
+[2016.04.08-18.04.46:303][461]LogStaticMesh: Building static mesh stone_floor_small...
+[2016.04.08-18.04.46:312][461]LogStaticMesh: Built static mesh [0.009246.2s] /Game/Graphics/Models/stone_floor_small.stone_floor_small
+[2016.04.08-18.04.46:313][461]LogStaticMesh:Warning: stone_floor_small has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-18.04.46:321][461]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.08-18.04.46:321][461]FBXImport:Warning: Warning stone_floor_small has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-18.04.46:326][461]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_floor_big.fbx)
+[2016.04.08-18.04.46:397][461]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_floor_big.fbx
+[2016.04.08-18.04.46:481][461]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-18.04.46:507][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh
+[2016.04.08-18.04.46:734][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh_1
+[2016.04.08-18.04.46:743][461]LogStaticMesh: Building static mesh stone_floor_big...
+[2016.04.08-18.04.46:766][461]LogStaticMesh: Built static mesh [0.023332.2s] /Game/Graphics/Models/stone_floor_big.stone_floor_big
+[2016.04.08-18.04.46:769][461]LogStaticMesh:Warning: stone_floor_big has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-18.04.46:777][461]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.08-18.04.46:777][461]FBXImport:Warning: Warning stone_floor_big has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-18.04.46:782][461]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_wall_small.fbx)
+[2016.04.08-18.04.46:875][461]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_wall_small.fbx
+[2016.04.08-18.04.46:965][461]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-18.04.46:990][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh
+[2016.04.08-18.04.47:095][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh_1
+[2016.04.08-18.04.47:100][461]LogStaticMesh: Building static mesh stone_wall_small...
+[2016.04.08-18.04.47:109][461]LogStaticMesh: Built static mesh [0.008487.2s] /Game/Graphics/Models/stone_wall_small.stone_wall_small
+[2016.04.08-18.04.47:110][461]LogStaticMesh:Warning: stone_wall_small has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-18.04.47:117][461]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.08-18.04.47:117][461]FBXImport:Warning: Warning stone_wall_small has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-18.04.47:121][461]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_wall_big.fbx)
+[2016.04.08-18.04.47:194][461]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/stone_wall_big.fbx
+[2016.04.08-18.04.47:277][461]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-18.04.47:303][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh
+[2016.04.08-18.04.47:503][461]LogFbx:Warning: Triangulating static mesh Empty_Mesh_1
+[2016.04.08-18.04.47:509][461]LogStaticMesh: Building static mesh stone_wall_big...
+[2016.04.08-18.04.47:526][461]LogStaticMesh: Built static mesh [0.016725.2s] /Game/Graphics/Models/stone_wall_big.stone_wall_big
+[2016.04.08-18.04.47:528][461]LogStaticMesh:Warning: stone_wall_big has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-18.04.47:534][461]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.08-18.04.47:534][461]FBXImport:Warning: Warning stone_wall_big has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-18.04.54:294][246]LogActorFactory: Actor Factory created stone_floor_big
+[2016.04.08-18.04.54:295][246]LogActorFactory: Actor Factory created stone_floor_small
+[2016.04.08-18.04.54:295][246]LogActorFactory: Actor Factory created stone_wall_big
+[2016.04.08-18.04.54:296][246]LogActorFactory: Actor Factory created stone_wall_small
+[2016.04.08-18.04.55:562][396]LogActorFactory: Actor Factory created stone_floor_big
+[2016.04.08-18.04.55:576][396]LogActorFactory: Actor Factory created stone_floor_small
+[2016.04.08-18.04.55:586][396]LogActorFactory: Actor Factory created stone_wall_big
+[2016.04.08-18.04.55:596][396]LogActorFactory: Actor Factory created stone_wall_small
+[2016.04.08-18.05.02:807][250]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.05.16:558][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_floor_big)
+[2016.04.08-18.05.21:120][436]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.08-18.05.24:991][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_floor_big)
+[2016.04.08-18.05.29:847][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_floor_big)
+[2016.04.08-18.05.30:047][140]Cmd: DELETE
+[2016.04.08-18.05.30:047][140]Cmd: ACTOR DELETE
+[2016.04.08-18.05.30:055][140]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.05.30:067][140]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.04.08-18.05.30:834][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_floor_small)
+[2016.04.08-18.05.31:101][262]Cmd: DELETE
+[2016.04.08-18.05.31:101][262]Cmd: ACTOR DELETE
+[2016.04.08-18.05.31:107][262]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.05.31:118][262]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.04.08-18.05.31:837][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_big)
+[2016.04.08-18.05.35:760][815]Cmd: DELETE
+[2016.04.08-18.05.35:760][815]Cmd: ACTOR DELETE
+[2016.04.08-18.05.35:768][815]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.05.35:780][815]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.04.08-18.05.37:307][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.05.48:154][261]LogSavePackage: Save=10.587223ms
+[2016.04.08-18.05.48:154][261]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_smallD8D8CBEB45C750BFDFA4AF995E10E267.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.05.48:156][261]LogSavePackage: Total save time: 12.746621ms
+[2016.04.08-18.05.48:156][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.05.48:187][261]LogSavePackage: Save=10.408489ms
+[2016.04.08-18.05.48:187][261]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big523400EC4D5374055D93258DD9F85946.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.05.48:188][261]LogSavePackage: Total save time: 12.127258ms
+[2016.04.08-18.05.48:188][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.05.48:215][261]LogSavePackage: Save=9.606356ms
+[2016.04.08-18.05.48:215][261]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small7D4AD6714DC76375E56AC19467C5AF54.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.05.48:216][261]LogSavePackage: Total save time: 11.253756ms
+[2016.04.08-18.05.48:216][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.05.48:241][261]LogSavePackage: Save=9.534366ms
+[2016.04.08-18.05.48:241][261]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big3D74E0654BBFB8E3C83C4CBC301506E1.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.05.48:243][261]LogSavePackage: Total save time: 11.469416ms
+[2016.04.08-18.05.48:243][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.05.52:662][752]LogSavePackage: Save=4.163644ms
+[2016.04.08-18.05.52:662][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_small33A2CE74413040FA447AB4B28ECC03CA.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.05.52:663][752]LogSavePackage: Total save time: 14.855437ms
+[2016.04.08-18.05.52:663][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.05.52:680][752]LogSavePackage: Save=4.307935ms
+[2016.04.08-18.05.52:680][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_bigCBBA8B87453824B7D6504EB43EF67D1A.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.05.52:681][752]LogSavePackage: Total save time: 13.167392ms
+[2016.04.08-18.05.52:681][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.05.52:698][752]LogSavePackage: Save=3.928434ms
+[2016.04.08-18.05.52:698][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small1A70E28A41A679380CBE30912913C450.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.05.52:699][752]LogSavePackage: Total save time: 12.503032ms
+[2016.04.08-18.05.52:699][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.05.52:716][752]LogSavePackage: Save=4.015009ms
+[2016.04.08-18.05.52:716][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big6B768D68425C7B6E813FF89325186CFE.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.05.52:717][752]LogSavePackage: Total save time: 12.735140ms
+[2016.04.08-18.05.52:717][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.05.52:731][752]LogSavePackage: Save=3.832240ms
+[2016.04.08-18.05.52:731][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_smallC0FB43364F1D12C9D7BD7AAA5DE22B31.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.05.52:732][752]LogSavePackage: Total save time: 9.932484ms
+[2016.04.08-18.05.52:732][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.05.52:746][752]LogSavePackage: Save=3.927814ms
+[2016.04.08-18.05.52:746][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big0525CE0B47EFDD15C1A9FEAAAD0DD6EA.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.05.52:747][752]LogSavePackage: Total save time: 10.172348ms
+[2016.04.08-18.05.52:747][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.05.52:761][752]LogSavePackage: Save=3.770490ms
+[2016.04.08-18.05.52:761][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_smallD41D5D1E4E94C2B4C7D662B8F1B715FC.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.05.52:762][752]LogSavePackage: Total save time: 9.889662ms
+[2016.04.08-18.05.52:762][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.05.52:777][752]LogSavePackage: Save=4.084517ms
+[2016.04.08-18.05.52:777][752]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big51AD4AAA4A2C3790D514D1B5FDE2B446.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.05.52:778][752]LogSavePackage: Total save time: 10.628182ms
+[2016.04.08-18.05.52:778][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.06.18:547][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.06.31:615][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.08.03:508][395]LogSavePackage: Save=4.759115ms
+[2016.04.08-18.08.03:508][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_small2C958CF54798F49C7F73CAB09D2AAD4D.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.08.03:509][395]LogSavePackage: Total save time: 13.049480ms
+[2016.04.08-18.08.03:509][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.08.03:524][395]LogSavePackage: Save=4.247736ms
+[2016.04.08-18.08.03:524][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big4EE58124480B8C83FFBAC9ADDE8E24CE.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.08.03:525][395]LogSavePackage: Total save time: 11.231411ms
+[2016.04.08-18.08.03:525][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.08.03:540][395]LogSavePackage: Save=4.092274ms
+[2016.04.08-18.08.03:540][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small1BD0C9EE4D3FF9DDF3AF48BBAC600B2E.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.08.03:541][395]LogSavePackage: Total save time: 10.367837ms
+[2016.04.08-18.08.03:541][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.08.03:556][395]LogSavePackage: Save=3.985220ms
+[2016.04.08-18.08.03:556][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big783991AE4BA5E90446D7B6B3A706D248.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.08.03:557][395]LogSavePackage: Total save time: 10.123633ms
+[2016.04.08-18.08.03:557][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.08.03:571][395]LogSavePackage: Save=3.896473ms
+[2016.04.08-18.08.03:571][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_smallCF2D1118474074D9D02044A53CA7135E.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.08.03:572][395]LogSavePackage: Total save time: 10.103773ms
+[2016.04.08-18.08.03:572][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.08.03:586][395]LogSavePackage: Save=3.845273ms
+[2016.04.08-18.08.03:586][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_bigC0BC6FB4456B20DC476211AAEA14D1DD.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.08.03:587][395]LogSavePackage: Total save time: 9.893075ms
+[2016.04.08-18.08.03:587][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.08.03:601][395]LogSavePackage: Save=3.897714ms
+[2016.04.08-18.08.03:601][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small309466B149A420026425EC8193742CD2.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.08.03:602][395]LogSavePackage: Total save time: 10.050397ms
+[2016.04.08-18.08.03:602][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.08.03:616][395]LogSavePackage: Save=3.919746ms
+[2016.04.08-18.08.03:616][395]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_bigCD86D90545A180E8578C67B2D9B71101.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.08.03:617][395]LogSavePackage: Total save time: 10.049157ms
+[2016.04.08-18.08.03:617][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.09.04:616][795]LogMaterial: Missing cached shader map for material M_stone, compiling. 
+[2016.04.08-18.09.04:679][795]LogMaterial: Missing cached shader map for material M_stone, compiling. 
+[2016.04.08-18.09.04:683][795]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-18.09.04:709][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.04.08-18.09.04:839][796]LogRenderer: Reallocating scene render targets to support 1208x744 (Frame:75378).
+[2016.04.08-18.09.05:453][836]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.08-18.09.05:453][836]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.08-18.09.05:453][836]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.08-18.09.16:238][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Materials/M_stoneEdges" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stoneEdges.uasset" SILENT=true
+[2016.04.08-18.09.16:250][ 53]LogSavePackage: Save=10.359151ms
+[2016.04.08-18.09.16:250][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stoneEdges4FA67597466B0E6A22B20BBFD4E90D63.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stoneEdges.uasset'
+[2016.04.08-18.09.16:252][ 53]LogSavePackage: Total save time: 12.111429ms
+[2016.04.08-18.09.16:252][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stoneEdges.uasset
+[2016.04.08-18.09.16:267][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Materials/M_stone" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stone.uasset" SILENT=true
+[2016.04.08-18.09.16:279][ 53]LogSavePackage: Save=10.504993ms
+[2016.04.08-18.09.16:279][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stone15E1FA124E3331B83039D196D34E3CC8.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stone.uasset'
+[2016.04.08-18.09.16:281][ 53]LogSavePackage: Total save time: 12.149598ms
+[2016.04.08-18.09.16:281][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_stone.uasset
+[2016.04.08-18.09.16:362][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002082AC862A0
+[2016.04.08-18.09.16:405][ 53]LogSavePackage: Save=4.064347ms
+[2016.04.08-18.09.16:405][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_small980813374686406D471408A77CA33421.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.09.16:406][ 53]LogSavePackage: Total save time: 10.969516ms
+[2016.04.08-18.09.16:406][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.09.16:420][ 53]LogSavePackage: Save=3.873200ms
+[2016.04.08-18.09.16:420][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big43C49B7F466E4F7D730421994A916C74.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.09.16:421][ 53]LogSavePackage: Total save time: 9.983063ms
+[2016.04.08-18.09.16:421][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.09.16:436][ 53]LogSavePackage: Save=3.846825ms
+[2016.04.08-18.09.16:436][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small5C8D08584F34CF8B4582AE9F93955D96.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.09.16:437][ 53]LogSavePackage: Total save time: 10.078017ms
+[2016.04.08-18.09.16:437][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.09.16:451][ 53]LogSavePackage: Save=3.812381ms
+[2016.04.08-18.09.16:451][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big97876394429E1FA3B35D84964272089B.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.09.16:452][ 53]LogSavePackage: Total save time: 9.900212ms
+[2016.04.08-18.09.16:452][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.09.16:466][ 53]LogSavePackage: Save=3.845273ms
+[2016.04.08-18.09.16:466][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_small8680406E4AA6663613B5B5B57E8F3F49.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset'
+[2016.04.08-18.09.16:467][ 53]LogSavePackage: Total save time: 10.077395ms
+[2016.04.08-18.09.16:467][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_small.uasset
+[2016.04.08-18.09.16:481][ 53]LogSavePackage: Save=3.847135ms
+[2016.04.08-18.09.16:481][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big1EA243DB434B192B1F56B994D4B30D6B.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset'
+[2016.04.08-18.09.16:482][ 53]LogSavePackage: Total save time: 9.852733ms
+[2016.04.08-18.09.16:482][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_wall_big.uasset
+[2016.04.08-18.09.16:496][ 53]LogSavePackage: Save=4.021525ms
+[2016.04.08-18.09.16:496][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small1EE602A24CF6BC8E66C476A41EF5BEEB.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset'
+[2016.04.08-18.09.16:497][ 53]LogSavePackage: Total save time: 10.483272ms
+[2016.04.08-18.09.16:497][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_small.uasset
+[2016.04.08-18.09.16:512][ 53]LogSavePackage: Save=3.891508ms
+[2016.04.08-18.09.16:512][ 53]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big5B7809C443FD685FCB6CC2899EE21079.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset'
+[2016.04.08-18.09.16:513][ 53]LogSavePackage: Total save time: 10.083292ms
+[2016.04.08-18.09.16:513][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_floor_big.uasset
+[2016.04.08-18.09.25:853][165]Cmd: EDIT COPY
+[2016.04.08-18.09.26:082][192]Cmd: EDIT PASTE
+[2016.04.08-18.09.31:717][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.09.32:313][931]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.09.35:274][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.09.35:782][341]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (stone_wall_small2)
+[2016.04.08-18.09.36:555][431]Cmd: EDIT COPY
+[2016.04.08-18.09.36:790][459]Cmd: EDIT PASTE
+[2016.04.08-18.09.40:368][883]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.09.47:727][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small3)
+[2016.04.08-18.09.48:694][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small4)
+[2016.04.08-18.09.50:167][ 48]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.14.13:714][152]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM4)
+[2016.04.08-18.14.16:572][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.14.16:924][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small3)
+[2016.04.08-18.14.17:648][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small4)
+[2016.04.08-18.14.18:021][657]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.14.20:332][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_three_bushleaves2)
+[2016.04.08-18.14.20:957][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf3)
+[2016.04.08-18.14.21:606][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf)
+[2016.04.08-18.14.27:419][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_materialHouse)
+[2016.04.08-18.14.28:495][896]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.14.29:270][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_materialHouse)
+[2016.04.08-18.14.30:302][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn)
+[2016.04.08-18.14.31:718][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_materialHouse)
+[2016.04.08-18.14.32:326][341]Cmd: DELETE
+[2016.04.08-18.14.32:326][341]Cmd: ACTOR DELETE
+[2016.04.08-18.14.32:334][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.14.32:347][341]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.04.08-18.14.33:154][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (M_materialHouse2)
+[2016.04.08-18.14.33:790][511]Cmd: DELETE
+[2016.04.08-18.14.33:790][511]Cmd: ACTOR DELETE
+[2016.04.08-18.14.33:796][511]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.14.33:808][511]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.04.08-18.14.34:615][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn2)
+[2016.04.08-18.14.43:974][725]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.15.10:134][ 14]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.15.16:457][296]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.15.27:786][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small)
+[2016.04.08-18.15.28:985][545]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (stone_wall_small2)
+[2016.04.08-18.15.29:446][588]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (stone_wall_small3)
+[2016.04.08-18.15.29:804][621]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (stone_wall_small4)
+[2016.04.08-18.15.34:410][ 80]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.15.53:319][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_big7)
+[2016.04.08-18.15.55:655][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_big6)
+[2016.04.08-18.15.57:926][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_big2)
+[2016.04.08-18.16.03:259][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_big7)
+[2016.04.08-18.16.14:252][ 26]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.16.20:197][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence_big7)
+[2016.04.08-18.16.24:334][ 23]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.16.51:957][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.16.51:957][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-18.16.51:971][780]PIE: New page: PIE session: TopDownExampleMap (Apr 8, 2016, 4:16:51 AM)
+[2016.04.08-18.16.51:971][780]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap
+[2016.04.08-18.16.52:193][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.222724s)
+[2016.04.08-18.16.52:194][780]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.16.52:194][780]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2016.04.08-18.16.52:194][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap (0.223712s)
+[2016.04.08-18.16.52:219][780]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-18.16.52:227][780]LogInit: FAudioDevice initialized.
+[2016.04.08-18.16.52:358][780]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.08-18.16.52:826][780]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.08-11.16.52
+[2016.04.08-18.16.52:826][780]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-18.16.52:826][780]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-18.16.52:830][780]LogWorld: Bringing up level for play took: 0.471218
+[2016.04.08-18.16.52:831][780]LogBlueprintUserMessages: [TopDownGameMode_C_0] Server: Hello
+[2016.04.08-18.16.52:832][780]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.08-18.16.52:833][780]LogInit: WinSock: I am DylanCronkhite (192.168.1.5:0)
+[2016.04.08-18.16.52:833][780]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.04.08-18.16.52:844][780]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap 0.68
+[2016.04.08-18.16.52:857][780]PIE: New page: PIE session: TopDownExampleMap (Apr 8, 2016, 4:16:52 AM)
+[2016.04.08-18.16.52:965][780]LogNet: Browse: 127.0.0.1//Game/TopDownBP/Maps/TopDownExampleMap
+[2016.04.08-18.16.52:965][780]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.08-18.16.52:965][780]LogNet: Game client on port 7777, rate 10000
+[2016.04.08-18.16.52:965][780]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1195312682
+[2016.04.08-18.16.52:979][780]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/TopDownExampleMap 0.814
+[2016.04.08-18.16.52:992][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.16.52:993][780]LogNet: NotifyAcceptingConnection: Server TopDownExampleMap accept
+[2016.04.08-18.16.52:993][780]LogNet: Open TopDownExampleMap 04/08/16 11:16:52 127.0.0.1
+[2016.04.08-18.16.52:993][780]LogNet: Added client connection.  Remote address = 127.0.0.1:54750
+[2016.04.08-18.16.52:993][780]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap: Accepted
+[2016.04.08-18.16.52:993][780]LogNet: Remote platform little endian=1
+[2016.04.08-18.16.52:993][780]LogNet: This platform little endian=1
+[2016.04.08-18.16.52:993][780]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1195312682
+[2016.04.08-18.16.53:010][781]LogNet: Login request: /Game/TopDownBP/Maps/TopDownExampleMap userId: Invalid
+[2016.04.08-18.16.53:012][781]LogNet: Welcomed by server (Level: /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap, Game: /Game/Blueprints/TopDownGameMode.TopDownGameMode_C)
+[2016.04.08-18.16.53:026][781]LogRenderer: Reallocating scene render targets to support 1280x744 (Frame:99494).
+[2016.04.08-18.16.53:039][781]LogLoad: LoadMap: 127.0.0.1//Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap?game=/Game/Blueprints/TopDownGameMode.TopDownGameMode_C
+[2016.04.08-18.16.53:052][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208A8C3D120
+[2016.04.08-18.16.53:054][781]Cmd: MEM
+[2016.04.08-18.16.53:067][781]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-18.16.53:067][781]LogMemory: Process Physical Memory: 1926.13 MB used, 1926.13 MB peak
+[2016.04.08-18.16.53:067][781]LogMemory: Process Virtual Memory: 2951.96 MB used, 2951.96 MB peak
+[2016.04.08-18.16.53:067][781]LogMemory: Physical Memory: 10116.41 MB used, 16276.64 MB total
+[2016.04.08-18.16.53:067][781]LogMemory: Virtual Memory: 3737.63 MB used, 134217728.00 MB total
+[2016.04.08-18.16.53:067][781]LogMemory: 
+[2016.04.08-18.16.53:067][781]Allocator Stats for TBB: (not implemented)
+[2016.04.08-18.16.53:285][781]LogWorld: PIE: Copying PIE streaming level from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap. OwningWorld: None
+[2016.04.08-18.16.53:286][781]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.16.53:475][781]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.08-11.16.53
+[2016.04.08-18.16.53:478][781]LogWorld: Bringing up level for play took: 0.191097
+[2016.04.08-18.16.53:492][782]LogNet: Client netspeed is 10000
+[2016.04.08-18.16.53:492][782]LogNet: Join request: /Game/TopDownBP/Maps/TopDownExampleMap?SplitscreenCount=1
+[2016.04.08-18.16.53:493][782]LogBlueprintUserMessages: [TopDownGameMode_C_0] Server: Hello
+[2016.04.08-18.16.53:495][782]LogNet: Join succeeded: 257
+[2016.04.08-18.16.54:026][825]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:034][826]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:042][827]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:050][828]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:058][829]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:087][830]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:098][831]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.16.54:106][832]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_2 controlling Pawn:TopDownCharacter_C_2 (if any of these is None then there's your problem
+[2016.04.08-18.17.09:083][102]LogBlueprintUserMessages: [Health] Server: Hello
+[2016.04.08-18.17.15:446][676]LogBlueprintUserMessages: [CharacterAbility_C_6] Server: Hello
+[2016.04.08-18.17.15:654][695]LogBlueprintUserMessages: [CharacterAbility_C_11] Server: Hello
+[2016.04.08-18.17.15:803][707]LogBlueprintUserMessages: [CharacterAbility_C_11] Server: Hello
+[2016.04.08-18.17.15:984][723]LogBlueprintUserMessages: [CharacterAbility_C_11] Server: Hello
+[2016.04.08-18.17.16:196][742]LogBlueprintUserMessages: [CharacterAbility_C_10] Server: Hello
+[2016.04.08-18.17.16:354][758]LogBlueprintUserMessages: [CharacterAbility_C_9] Server: Hello
+[2016.04.08-18.17.16:520][772]LogBlueprintUserMessages: [CharacterAbility_C_9] Server: Hello
+[2016.04.08-18.17.16:784][795]LogBlueprintUserMessages: [CharacterAbility_C_8] Server: Hello
+[2016.04.08-18.17.16:984][813]LogBlueprintUserMessages: [Defense] Server: Hello
+[2016.04.08-18.17.17:783][884]LogBlueprintUserMessages: [Strength] Server: Hello
+[2016.04.08-18.17.17:920][897]LogBlueprintUserMessages: [Strength] Server: Hello
+[2016.04.08-18.17.18:095][912]LogBlueprintUserMessages: [Strength] Server: Hello
+[2016.04.08-18.17.18:284][929]LogBlueprintUserMessages: [Strength] Server: Hello
+[2016.04.08-18.17.19:037][998]LogBlueprintUserMessages: [Strength] Server: Hello
+[2016.04.08-18.17.22:484][307]LogBlueprintUserMessages: [Health] Server: Hello
+[2016.04.08-18.18.23:220][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.18.23:325][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.18.23:349][769]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.04.08-18.18.23:349][769]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:54750, Time: 2016.04.08-18.18.23
+[2016.04.08-18.18.23:349][769]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.04.08-18.18.23:349][769]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.04.08-18.18.23:349][769]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.08-18.18.23
+[2016.04.08-18.18.23:349][769]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.04.08-18.18.23:367][769]LogExit: GameNetDriver None shut down
+[2016.04.08-18.18.23:367][769]LogExit: GameNetDriver None shut down
+[2016.04.08-18.18.23:370][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002080C4FE980
+[2016.04.08-18.18.23:408][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002080D529C60
+[2016.04.08-18.18.23:999][829]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.18.28:191][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn)
+[2016.04.08-18.18.29:344][356]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.18.29:783][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn2)
+[2016.04.08-18.18.31:090][525]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.18.37:149][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn)
+[2016.04.08-18.18.37:957][201]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.18.39:941][395]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.18.53:382][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn)
+[2016.04.08-18.18.54:131][804]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.19.09:540][325]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight2)
+[2016.04.08-18.19.10:447][415]Cmd: DELETE
+[2016.04.08-18.19.10:447][415]Cmd: ACTOR DELETE
+[2016.04.08-18.19.10:454][415]LogEditorActor: Deleted Actor: SkyLight
+[2016.04.08-18.19.10:467][415]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.04.08-18.19.12:298][599]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.19.12:955][662]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.04.08-18.19.14:281][790]Cmd: TRANSACTION UNDO
+[2016.04.08-18.19.14:281][790]LogEditorTransaction: Undo Clicking on Actors
+[2016.04.08-18.19.38:384][790]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (barn2)
+[2016.04.08-18.19.38:451][790]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (barn)
+[2016.04.08-18.19.44:582][387]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.04.08-18.19.45:418][468]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.04.08-18.19.46:255][552]Cmd: DELETE
+[2016.04.08-18.19.46:255][552]Cmd: ACTOR DELETE
+[2016.04.08-18.19.46:262][552]LogEditorActor: Deleted Actor: SkyLight
+[2016.04.08-18.19.46:274][552]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.04.08-18.19.48:657][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.19.48:657][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-18.19.48:670][804]PIE: New page: PIE session: TopDownExampleMap (Apr 8, 2016, 4:19:48 AM)
+[2016.04.08-18.19.48:670][804]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap
+[2016.04.08-18.19.48:885][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.214092s)
+[2016.04.08-18.19.48:885][804]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.19.48:885][804]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2016.04.08-18.19.48:885][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap (0.215011s)
+[2016.04.08-18.19.48:908][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-18.19.48:915][804]LogInit: FAudioDevice initialized.
+[2016.04.08-18.19.49:042][804]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.08-18.19.49:232][804]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.08-11.19.49
+[2016.04.08-18.19.49:233][804]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-18.19.49:233][804]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-18.19.49:236][804]LogWorld: Bringing up level for play took: 0.193086
+[2016.04.08-18.19.49:237][804]LogBlueprintUserMessages: [TopDownGameMode_C_1] Server: Hello
+[2016.04.08-18.19.49:238][804]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.08-18.19.49:238][804]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.04.08-18.19.49:249][804]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap 1.085
+[2016.04.08-18.19.49:261][804]PIE: New page: PIE session: TopDownExampleMap (Apr 8, 2016, 4:19:49 AM)
+[2016.04.08-18.19.49:378][804]LogNet: Browse: 127.0.0.1//Game/TopDownBP/Maps/TopDownExampleMap
+[2016.04.08-18.19.49:378][804]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.08-18.19.49:378][804]LogNet: Game client on port 7777, rate 10000
+[2016.04.08-18.19.49:378][804]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1195312682
+[2016.04.08-18.19.49:394][804]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/TopDownExampleMap 1.23
+[2016.04.08-18.19.49:406][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.19.49:406][804]LogNet: NotifyAcceptingConnection: Server TopDownExampleMap accept
+[2016.04.08-18.19.49:406][804]LogNet: Open TopDownExampleMap 04/08/16 11:19:49 127.0.0.1
+[2016.04.08-18.19.49:406][804]LogNet: Added client connection.  Remote address = 127.0.0.1:57849
+[2016.04.08-18.19.49:406][804]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap: Accepted
+[2016.04.08-18.19.49:406][804]LogNet: Remote platform little endian=1
+[2016.04.08-18.19.49:406][804]LogNet: This platform little endian=1
+[2016.04.08-18.19.49:406][804]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1195312682
+[2016.04.08-18.19.49:418][805]LogNet: Login request: /Game/TopDownBP/Maps/TopDownExampleMap userId: Invalid
+[2016.04.08-18.19.49:419][805]LogNet: Welcomed by server (Level: /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap, Game: /Game/Blueprints/TopDownGameMode.TopDownGameMode_C)
+[2016.04.08-18.19.49:419][805]LogLoad: LoadMap: 127.0.0.1//Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap?game=/Game/Blueprints/TopDownGameMode.TopDownGameMode_C
+[2016.04.08-18.19.49:432][805]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002081128BC40
+[2016.04.08-18.19.49:434][805]Cmd: MEM
+[2016.04.08-18.19.49:446][805]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-18.19.49:446][805]LogMemory: Process Physical Memory: 1962.73 MB used, 1999.70 MB peak
+[2016.04.08-18.19.49:446][805]LogMemory: Process Virtual Memory: 2854.54 MB used, 3051.32 MB peak
+[2016.04.08-18.19.49:446][805]LogMemory: Physical Memory: 10024.04 MB used, 16276.64 MB total
+[2016.04.08-18.19.49:446][805]LogMemory: Virtual Memory: 3732.53 MB used, 134217728.00 MB total
+[2016.04.08-18.19.49:446][805]LogMemory: 
+[2016.04.08-18.19.49:446][805]Allocator Stats for TBB: (not implemented)
+[2016.04.08-18.19.49:647][805]LogWorld: PIE: Copying PIE streaming level from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap. OwningWorld: None
+[2016.04.08-18.19.49:647][805]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.19.49:836][805]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.08-11.19.49
+[2016.04.08-18.19.49:840][805]LogWorld: Bringing up level for play took: 0.191636
+[2016.04.08-18.19.49:853][806]LogNet: Client netspeed is 10000
+[2016.04.08-18.19.49:853][806]LogNet: Join request: /Game/TopDownBP/Maps/TopDownExampleMap?SplitscreenCount=1
+[2016.04.08-18.19.49:854][806]LogBlueprintUserMessages: [TopDownGameMode_C_1] Server: Hello
+[2016.04.08-18.19.49:856][806]LogNet: Join succeeded: 259
+[2016.04.08-18.19.50:315][842]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:322][843]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:330][844]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:338][845]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:347][846]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:355][847]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:384][848]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:395][849]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:403][850]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:411][851]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:420][852]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:428][853]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:436][854]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:445][855]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:453][856]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:461][857]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:484][858]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:495][859]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:503][860]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:511][861]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:519][862]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:528][863]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:536][864]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:545][865]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:553][866]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:561][867]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:584][868]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:595][869]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:603][870]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:611][871]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:619][872]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:628][873]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:636][874]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:644][875]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.19.50:652][876]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_5 controlling Pawn:TopDownCharacter_C_6 (if any of these is None then there's your problem
+[2016.04.08-18.20.06:916][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.20.07:019][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.20.07:044][386]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.04.08-18.20.07:044][386]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:57849, Time: 2016.04.08-18.20.07
+[2016.04.08-18.20.07:044][386]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.04.08-18.20.07:044][386]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.04.08-18.20.07:044][386]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.08-18.20.07
+[2016.04.08-18.20.07:044][386]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.04.08-18.20.07:062][386]LogExit: GameNetDriver None shut down
+[2016.04.08-18.20.07:062][386]LogExit: GameNetDriver None shut down
+[2016.04.08-18.20.07:065][386]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208B6EBD260
+[2016.04.08-18.20.07:092][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208B42C60C0
+[2016.04.08-18.21.19:779][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf3)
+[2016.04.08-18.21.20:587][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf2)
+[2016.04.08-18.21.21:020][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf)
+[2016.04.08-18.21.21:486][479]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM2)
+[2016.04.08-18.21.22:220][558]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM5)
+[2016.04.08-18.21.23:157][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_two_bushleaves2)
+[2016.04.08-18.21.45:687][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn2)
+[2016.04.08-18.21.46:128][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn2)
+[2016.04.08-18.22.21:913][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf3)
+[2016.04.08-18.23.04:531][536]LogEditorViewport: Clicking on Actor (LMB): OpeningChest_C (OpeningChest2)
+[2016.04.08-18.23.24:229][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-18.23.24:229][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1176.48] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.08-18.23.24:229][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1176.48] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-18.23.24:229][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1176.48] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-18.23.24:256][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1176.51] Compile of TopDownExampleMap successful, but with 4 Warning(s) [in 26 ms]
+[2016.04.08-18.23.24:256][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1176.51] Compile of TopDownExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.08-18.23.24:256][883]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1176.51] Compile of TopDownExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.08-18.23.25:979][883]LogSavePackage: Save=1753.320679ms
+[2016.04.08-18.23.25:979][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/TopDownExampleMap_Auto156A45EE24C725FA5272901AC5EEE6B54.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2016.04.08-18.23.25:982][883]LogSavePackage: Total save time: 1781.566024ms
+[2016.04.08-18.23.25:982][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.08-18.23.25:985][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.800
+[2016.04.08-18.23.25:985][883]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.800
+[2016.04.08-18.23.25:992][883]LogSavePackage: Save=2.425637ms
+[2016.04.08-18.23.25:992][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stone_Auto15EDC7E5B447EB168D82B61B3E1CD6C96.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/M_stone_Auto1.uasset'
+[2016.04.08-18.23.25:993][883]LogSavePackage: Total save time: 3.125682ms
+[2016.04.08-18.23.25:993][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/M_stone_Auto1.uasset
+[2016.04.08-18.23.25:998][883]LogSavePackage: Save=2.280105ms
+[2016.04.08-18.23.25:999][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_small_Auto12712B7CF4CD1D5D6734797AFFFA579BF.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_floor_small_Auto1.uasset'
+[2016.04.08-18.23.25:999][883]LogSavePackage: Total save time: 2.929259ms
+[2016.04.08-18.23.25:999][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_floor_small_Auto1.uasset
+[2016.04.08-18.23.26:002][883]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Graphics/Models/Tile-Ables/stone_single] ([1] browsable assets)...
+[2016.04.08-18.23.26:012][883]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Graphics/Models/Tile-Ables/stone_single.stone_single]
+[2016.04.08-18.23.26:012][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Graphics/Models/Tile-Ables/stone_single]
+[2016.04.08-18.23.26:029][883]LogSavePackage: Save=8.890177ms
+[2016.04.08-18.23.26:029][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_single_Auto17F9FD06043C479882DCC02A8A5A6E117.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/Tile-Ables/stone_single_Auto1.uasset'
+[2016.04.08-18.23.26:030][883]LogSavePackage: Total save time: 16.299896ms
+[2016.04.08-18.23.26:030][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/Tile-Ables/stone_single_Auto1.uasset
+[2016.04.08-18.23.26:036][883]LogSavePackage: Save=2.254040ms
+[2016.04.08-18.23.26:036][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stoneEdges_Auto15393CED14C357D1B3389469E99BA2B52.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/M_stoneEdges_Auto1.uasset'
+[2016.04.08-18.23.26:036][883]LogSavePackage: Total save time: 2.908468ms
+[2016.04.08-18.23.26:036][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/M_stoneEdges_Auto1.uasset
+[2016.04.08-18.23.26:042][883]LogSavePackage: Save=2.327271ms
+[2016.04.08-18.23.26:042][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big_Auto1BD4320774E4417188DF11AAF84086482.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_floor_big_Auto1.uasset'
+[2016.04.08-18.23.26:042][883]LogSavePackage: Total save time: 3.252596ms
+[2016.04.08-18.23.26:042][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_floor_big_Auto1.uasset
+[2016.04.08-18.23.26:048][883]LogSavePackage: Save=2.345579ms
+[2016.04.08-18.23.26:048][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_small_Auto1534B15FD4E29B9DF0145C1B6C6B87331.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_wall_small_Auto1.uasset'
+[2016.04.08-18.23.26:049][883]LogSavePackage: Total save time: 2.985112ms
+[2016.04.08-18.23.26:049][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_wall_small_Auto1.uasset
+[2016.04.08-18.23.26:054][883]LogSavePackage: Save=2.503834ms
+[2016.04.08-18.23.26:054][883]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big_Auto11BD7FF224D8FC23584E7F5A9C41AF060.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_wall_big_Auto1.uasset'
+[2016.04.08-18.23.26:055][883]LogSavePackage: Total save time: 3.248561ms
+[2016.04.08-18.23.26:055][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/Models/stone_wall_big_Auto1.uasset
+[2016.04.08-18.23.26:055][883]LogFileHelpers: Auto-saving content packages took 0.069
+[2016.04.08-18.32.13:152][773]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2016.04.08-18.32.44:162][358]LogEditorActor: Deleted Actor: Landscape
+[2016.04.08-18.32.44:320][358]LogEditorActor: Deleted 1 Actors (0.165 secs)
+[2016.04.08-18.32.44:329][359]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.32.51:382][183]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.32.52:138][272]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint2)
+[2016.04.08-18.32.52:968][369]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.33.22:366][872]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.33.23:038][949]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavigationMeshBoundsVolume2)
+[2016.04.08-18.34.32:127][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-18.34.32:127][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1844.38] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.08-18.34.32:127][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1844.38] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-18.34.32:127][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1844.38] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-18.34.32:155][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1844.41] Compile of TopDownExampleMap successful, but with 4 Warning(s) [in 27 ms]
+[2016.04.08-18.34.32:155][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1844.41] Compile of TopDownExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.08-18.34.32:155][169]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1844.41] Compile of TopDownExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.08-18.34.33:056][169]LogSavePackage: Save=932.016357ms
+[2016.04.08-18.34.33:056][169]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/TopDownExampleMap_Auto2D47742BB47EDB9D0B5E106AD9164BAB2.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2016.04.08-18.34.33:066][169]LogSavePackage: Total save time: 966.636546ms
+[2016.04.08-18.34.33:066][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap
+[2016.04.08-18.34.33:080][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.000
+[2016.04.08-18.34.33:080][169]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.000
+[2016.04.08-18.34.53:187][577]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavigationMeshBoundsVolume2)
+[2016.04.08-18.35.11:191][702]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint2)
+[2016.04.08-18.35.44:542][574]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.04.08-18.35.56:777][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.04.08-18.36.00:763][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.04.08-18.36.33:753][414]LogTexture:Display: Building textures: Texture2D_1042 (BGRA8)
+[2016.04.08-18.36.33:754][414]LogTexture:Display: Building textures: Texture2D_1043 (BGRA8)
+[2016.04.08-18.36.33:755][414]LogTexture:Display: Building textures: Texture2D_1044 (BGRA8)
+[2016.04.08-18.36.33:756][414]LogTexture:Display: Building textures: Texture2D_1045 (BGRA8)
+[2016.04.08-18.36.33:863][415]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.33:964][421]LogTexture:Display: Building textures: Texture2D_1046 (BGRA8)
+[2016.04.08-18.36.33:993][422]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.34:020][422]LogTexture:Display: Building textures: Texture2D_1047 (BGRA8)
+[2016.04.08-18.36.34:020][422]LogTexture:Display: Building textures: Texture2D_1048 (BGRA8)
+[2016.04.08-18.36.34:073][423]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.34:656][460]LogTexture:Display: Building textures: Texture2D_1049 (BGRA8)
+[2016.04.08-18.36.34:686][461]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.34:732][463]LogTexture:Display: Building textures: Texture2D_1050 (BGRA8)
+[2016.04.08-18.36.34:733][463]LogTexture:Display: Building textures: Texture2D_1051 (BGRA8)
+[2016.04.08-18.36.34:785][464]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.35:570][525]LogTexture:Display: Building textures: Texture2D_1052 (BGRA8)
+[2016.04.08-18.36.35:599][526]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.35:831][541]LogTexture:Display: Building textures: Texture2D_1053 (BGRA8)
+[2016.04.08-18.36.35:859][542]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.41:278][ 86]Cmd: TRANSACTION UNDO
+[2016.04.08-18.36.41:278][ 86]LogEditorTransaction: Undo Landscape Editing: Retopologize
+[2016.04.08-18.36.41:356][ 86]LogMaterial: 0.000244 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:357][ 86]LogMaterial: 0.000238 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:358][ 86]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2016.04.08-18.36.41:369][ 86]LogMaterial: 0.000227 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:370][ 86]LogMaterial: 0.000260 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:370][ 86]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:371][ 86]LogMaterial: 0.000234 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:372][ 86]LogMaterial: 0.000226 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:372][ 86]LogMaterial: 0.000223 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:373][ 86]LogMaterial: 0.000224 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:374][ 86]LogMaterial: 0.000224 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:374][ 86]LogMaterial: 0.000222 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:378][ 86]LogMaterial: 0.000228 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.41:623][ 87]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.48:153][838]LogTexture:Display: Building textures: Texture2D_1054 (BGRA8)
+[2016.04.08-18.36.48:154][838]LogTexture:Display: Building textures: Texture2D_1055 (BGRA8)
+[2016.04.08-18.36.48:213][839]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.55:486][709]LogTexture:Display: Building textures: Texture2D_1056 (BGRA8)
+[2016.04.08-18.36.55:487][709]LogTexture:Display: Building textures: Texture2D_1057 (BGRA8)
+[2016.04.08-18.36.55:544][710]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.36.58:118][ 17]Cmd: TRANSACTION UNDO
+[2016.04.08-18.36.58:118][ 17]LogEditorTransaction: Undo Landscape Editing: Retopologize
+[2016.04.08-18.36.58:125][ 17]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2016.04.08-18.36.58:135][ 17]LogTexture:Display: Building textures: Texture2D_1056 (BGRA8)
+[2016.04.08-18.36.58:136][ 17]LogTexture:Display: Building textures: Texture2D_1057 (BGRA8)
+[2016.04.08-18.36.58:137][ 17]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2016.04.08-18.36.58:147][ 17]LogMaterial: 0.000224 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.36.58:171][ 17]LogMaterial: 0.000233 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.08-18.37.04:544][750]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavigationMeshBoundsVolume2)
+[2016.04.08-18.38.05:813][784]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.38.07:749][  5]Cmd: EDIT COPY
+[2016.04.08-18.41.09:598][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.04.08-18.41.53:856][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-18.41.53:856][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2286.11] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.08-18.41.53:856][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2286.11] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-18.41.53:856][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2286.11] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-18.41.53:885][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2286.14] Compile of TopDownExampleMap successful, but with 4 Warning(s) [in 28 ms]
+[2016.04.08-18.41.53:885][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2286.14] Compile of TopDownExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.08-18.41.53:885][772]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2286.14] Compile of TopDownExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.08-18.41.53:910][772]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2016.04.08-18.41.53:919][772]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2016.04.08-18.41.53:929][772]LogTexture:Display: Building textures: Texture2D_1054 (BGRA8)
+[2016.04.08-18.41.53:929][772]LogTexture:Display: Building textures: Texture2D_1055 (BGRA8)
+[2016.04.08-18.41.54:788][772]LogSavePackage: Save=934.717224ms
+[2016.04.08-18.41.54:788][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/TopDownExampleMap2B6D2163421FA3ABC94EA8A9E09FAAF5.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2016.04.08-18.41.54:795][772]LogSavePackage: Total save time: 964.587931ms
+[2016.04.08-18.41.54:795][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2016.04.08-18.41.54:836][772]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.083
+[2016.04.08-18.41.54:840][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Models/M_stone" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/M_stone.uasset" SILENT=true
+[2016.04.08-18.41.54:843][772]LogSavePackage: Save=2.420983ms
+[2016.04.08-18.41.54:843][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stone6C36497841631C7A43562B8EDAA9D0EA.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/M_stone.uasset'
+[2016.04.08-18.41.54:847][772]LogSavePackage: Total save time: 6.582763ms
+[2016.04.08-18.41.54:847][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/M_stone.uasset
+[2016.04.08-18.41.54:855][772]LogSavePackage: Save=2.437429ms
+[2016.04.08-18.41.54:855][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_smallB32B803F421C5340D3BEBC986508697B.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_floor_small.uasset'
+[2016.04.08-18.41.54:859][772]LogSavePackage: Total save time: 6.465781ms
+[2016.04.08-18.41.54:859][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_floor_small.uasset
+[2016.04.08-18.41.54:874][772]LogSavePackage: Save=3.440017ms
+[2016.04.08-18.41.54:874][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_singleF50FBAB4484D19E2183E7091CFF40EBC.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_single.uasset'
+[2016.04.08-18.41.54:878][772]LogSavePackage: Total save time: 14.065407ms
+[2016.04.08-18.41.54:878][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/Tile-Ables/stone_single.uasset
+[2016.04.08-18.41.54:883][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Models/M_stoneEdges" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/M_stoneEdges.uasset" SILENT=true
+[2016.04.08-18.41.54:886][772]LogSavePackage: Save=2.489870ms
+[2016.04.08-18.41.54:886][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_stoneEdges7B9D32BA42F9E6191DDD948791FAB7BA.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/M_stoneEdges.uasset'
+[2016.04.08-18.41.54:890][772]LogSavePackage: Total save time: 6.527219ms
+[2016.04.08-18.41.54:890][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/M_stoneEdges.uasset
+[2016.04.08-18.41.54:895][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Models/stone_floor_big" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_floor_big.uasset" SILENT=true
+[2016.04.08-18.41.54:898][772]LogSavePackage: Save=2.375058ms
+[2016.04.08-18.41.54:898][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_floor_big963A3C0842D7786E3B6B3A9BB77D02EC.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_floor_big.uasset'
+[2016.04.08-18.41.54:901][772]LogSavePackage: Total save time: 5.407646ms
+[2016.04.08-18.41.54:901][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_floor_big.uasset
+[2016.04.08-18.41.54:905][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Models/stone_wall_small" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_wall_small.uasset" SILENT=true
+[2016.04.08-18.41.54:909][772]LogSavePackage: Save=2.741526ms
+[2016.04.08-18.41.54:909][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_smallCA4943B245DA887C9D428BAA7149287E.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_wall_small.uasset'
+[2016.04.08-18.41.54:912][772]LogSavePackage: Total save time: 5.735636ms
+[2016.04.08-18.41.54:912][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_wall_small.uasset
+[2016.04.08-18.41.54:916][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Models/stone_wall_big" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_wall_big.uasset" SILENT=true
+[2016.04.08-18.41.54:920][772]LogSavePackage: Save=2.394297ms
+[2016.04.08-18.41.54:920][772]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/stone_wall_big8CBA7A0147B93DBA82550BACB0D873D7.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_wall_big.uasset'
+[2016.04.08-18.41.54:921][772]LogSavePackage: Total save time: 4.195914ms
+[2016.04.08-18.41.54:921][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Models/stone_wall_big.uasset
+[2016.04.08-18.46.42:101][967]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.08-18.51.03:589][778]LogActorFactory: Actor Factory created bucket
+[2016.04.08-18.51.59:927][304]Cmd: TRANSACTION UNDO
+[2016.04.08-18.51.59:927][304]LogEditorTransaction: Undo Create Actors
+[2016.04.08-18.52.00:245][326]Cmd: TRANSACTION UNDO
+[2016.04.08-18.52.00:245][326]LogEditorTransaction: Undo Create Actors
+[2016.04.08-18.52.00:611][349]Cmd: TRANSACTION UNDO
+[2016.04.08-18.52.00:611][349]LogEditorTransaction: Undo Create Actors
+[2016.04.08-18.52.57:459][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn)
+[2016.04.08-18.52.58:588][194]Cmd: DELETE
+[2016.04.08-18.52.58:588][194]Cmd: ACTOR DELETE
+[2016.04.08-18.52.58:594][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.52.58:674][194]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2016.04.08-18.52.58:701][195]Cmd: UpdateLandscapeEditorData
+[2016.04.08-18.52.59:496][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (barn2)
+[2016.04.08-18.53.00:132][364]Cmd: DELETE
+[2016.04.08-18.53.00:132][364]Cmd: ACTOR DELETE
+[2016.04.08-18.53.00:138][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.00:149][364]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2016.04.08-18.53.06:020][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:021][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:023][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:024][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:026][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:027][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:029][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:030][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.06:040][ 65]LogEditorActor: Deleted 8 Actors (0.025 secs)
+[2016.04.08-18.53.07:439][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf3)
+[2016.04.08-18.53.08:552][364]Cmd: DELETE
+[2016.04.08-18.53.08:552][364]Cmd: ACTOR DELETE
+[2016.04.08-18.53.08:557][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.08:568][364]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-18.53.09:592][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_three_bushleaves2)
+[2016.04.08-18.53.09:879][519]Cmd: DELETE
+[2016.04.08-18.53.09:879][519]Cmd: ACTOR DELETE
+[2016.04.08-18.53.09:885][519]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.09:895][519]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-18.53.10:225][559]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM4)
+[2016.04.08-18.53.10:466][586]Cmd: DELETE
+[2016.04.08-18.53.10:467][586]Cmd: ACTOR DELETE
+[2016.04.08-18.53.10:472][586]LogEditorActor: Deleted Actor: CuttableTree_C
+[2016.04.08-18.53.10:482][586]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-18.53.10:895][636]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM2)
+[2016.04.08-18.53.11:024][650]Cmd: DELETE
+[2016.04.08-18.53.11:024][650]Cmd: ACTOR DELETE
+[2016.04.08-18.53.11:029][650]LogEditorActor: Deleted Actor: CuttableTree_C
+[2016.04.08-18.53.11:039][650]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-18.53.11:569][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf)
+[2016.04.08-18.53.11:643][720]Cmd: DELETE
+[2016.04.08-18.53.11:643][720]Cmd: ACTOR DELETE
+[2016.04.08-18.53.11:648][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.11:658][720]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-18.53.12:209][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree_one_bushleaf2)
+[2016.04.08-18.53.12:296][794]Cmd: DELETE
+[2016.04.08-18.53.12:297][794]Cmd: ACTOR DELETE
+[2016.04.08-18.53.12:302][794]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.12:312][794]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-18.53.12:875][862]LogEditorViewport: Clicking on Actor (LMB): crate_closed_C (crate_closed2)
+[2016.04.08-18.53.12:974][872]Cmd: DELETE
+[2016.04.08-18.53.12:974][872]Cmd: ACTOR DELETE
+[2016.04.08-18.53.12:979][872]LogEditorActor: Deleted Actor: crate_closed_C
+[2016.04.08-18.53.12:989][872]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-18.53.13:561][941]LogEditorViewport: Clicking on Actor (LMB): OpeningChest_C (OpeningChest2)
+[2016.04.08-18.53.13:666][952]Cmd: DELETE
+[2016.04.08-18.53.13:666][952]Cmd: ACTOR DELETE
+[2016.04.08-18.53.13:671][952]LogEditorActor: Deleted Actor: OpeningChest_C
+[2016.04.08-18.53.13:682][952]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-18.53.14:253][ 21]LogEditorViewport: Clicking on Actor (LMB): crate_closed_C (crate_closed)
+[2016.04.08-18.53.14:462][ 44]Cmd: DELETE
+[2016.04.08-18.53.14:462][ 44]Cmd: ACTOR DELETE
+[2016.04.08-18.53.14:467][ 44]LogEditorActor: Deleted Actor: crate_closed_C
+[2016.04.08-18.53.14:478][ 44]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-18.53.15:308][144]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-18.53.15:755][195]LogEditorViewport: Clicking on Actor (LMB): OpeningChest_C (OpeningChest)
+[2016.04.08-18.53.15:968][219]Cmd: DELETE
+[2016.04.08-18.53.15:968][219]Cmd: ACTOR DELETE
+[2016.04.08-18.53.15:974][219]LogEditorActor: Deleted Actor: OpeningChest_C
+[2016.04.08-18.53.15:984][219]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-18.53.16:497][281]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM5)
+[2016.04.08-18.53.16:568][288]Cmd: DELETE
+[2016.04.08-18.53.16:568][288]Cmd: ACTOR DELETE
+[2016.04.08-18.53.16:573][288]LogEditorActor: Deleted Actor: CuttableTree_C
+[2016.04.08-18.53.16:583][288]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-18.53.17:238][367]LogEditorViewport: Clicking on Actor (LMB): CuttableTree_C (tree-bush_DM3)
+[2016.04.08-18.53.17:308][374]Cmd: DELETE
+[2016.04.08-18.53.17:308][374]Cmd: ACTOR DELETE
+[2016.04.08-18.53.17:314][374]LogEditorActor: Deleted Actor: CuttableTree_C
+[2016.04.08-18.53.17:324][374]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-18.53.19:430][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (stone_wall_small3)
+[2016.04.08-18.53.23:988][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.23:990][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.23:991][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.23:993][166]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.24:002][166]LogEditorActor: Deleted 4 Actors (0.020 secs)
+[2016.04.08-18.53.28:142][661]Cmd: DELETE
+[2016.04.08-18.53.28:142][661]Cmd: ACTOR DELETE
+[2016.04.08-18.53.28:147][661]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-18.53.28:160][661]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2016.04.08-18.53.30:935][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.53.30:935][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-18.53.30:947][992]PIE: New page: PIE session: TopDownExampleMap (Apr 8, 2016, 4:53:30 AM)
+[2016.04.08-18.53.30:947][992]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap
+[2016.04.08-18.53.31:062][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114867s)
+[2016.04.08-18.53.31:063][992]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.53.31:063][992]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2016.04.08-18.53.31:063][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap (0.116000s)
+[2016.04.08-18.53.31:084][992]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-18.53.31:093][992]LogInit: FAudioDevice initialized.
+[2016.04.08-18.53.31:186][992]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.08-18.53.31:281][992]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.08-11.53.31
+[2016.04.08-18.53.31:281][992]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-18.53.31:281][992]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-18.53.31:283][992]LogWorld: Bringing up level for play took: 0.095191
+[2016.04.08-18.53.31:284][992]LogBlueprintUserMessages: [TopDownGameMode_C_2] Server: Hello
+[2016.04.08-18.53.31:285][992]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.08-18.53.31:285][992]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.04.08-18.53.31:295][992]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap 1.131
+[2016.04.08-18.53.31:308][992]PIE: New page: PIE session: TopDownExampleMap (Apr 8, 2016, 4:53:31 AM)
+[2016.04.08-18.53.31:403][992]LogNet: Browse: 127.0.0.1//Game/TopDownBP/Maps/TopDownExampleMap
+[2016.04.08-18.53.31:403][992]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.08-18.53.31:404][992]LogNet: Game client on port 7777, rate 10000
+[2016.04.08-18.53.31:404][992]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1195312682
+[2016.04.08-18.53.31:416][992]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/TopDownExampleMap 1.252
+[2016.04.08-18.53.31:428][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.53.31:428][992]LogNet: NotifyAcceptingConnection: Server TopDownExampleMap accept
+[2016.04.08-18.53.31:428][992]LogNet: Open TopDownExampleMap 04/08/16 11:53:31 127.0.0.1
+[2016.04.08-18.53.31:428][992]LogNet: Added client connection.  Remote address = 127.0.0.1:61794
+[2016.04.08-18.53.31:428][992]LogNet: NotifyAcceptingChannel Control 0 server World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap: Accepted
+[2016.04.08-18.53.31:428][992]LogNet: Remote platform little endian=1
+[2016.04.08-18.53.31:428][992]LogNet: This platform little endian=1
+[2016.04.08-18.53.31:428][992]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1195312682
+[2016.04.08-18.53.31:438][993]LogNet: Login request: /Game/TopDownBP/Maps/TopDownExampleMap userId: Invalid
+[2016.04.08-18.53.31:439][993]LogNet: Welcomed by server (Level: /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap, Game: /Game/Blueprints/TopDownGameMode.TopDownGameMode_C)
+[2016.04.08-18.53.31:452][993]LogLoad: LoadMap: 127.0.0.1//Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap?game=/Game/Blueprints/TopDownGameMode.TopDownGameMode_C
+[2016.04.08-18.53.31:465][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002080D2A0900
+[2016.04.08-18.53.31:466][993]Cmd: MEM
+[2016.04.08-18.53.31:476][993]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-18.53.31:476][993]LogMemory: Process Physical Memory: 1910.55 MB used, 2042.19 MB peak
+[2016.04.08-18.53.31:476][993]LogMemory: Process Virtual Memory: 3477.60 MB used, 3477.60 MB peak
+[2016.04.08-18.53.31:476][993]LogMemory: Physical Memory: 9897.71 MB used, 16276.64 MB total
+[2016.04.08-18.53.31:476][993]LogMemory: Virtual Memory: 4348.56 MB used, 134217728.00 MB total
+[2016.04.08-18.53.31:476][993]LogMemory: 
+[2016.04.08-18.53.31:476][993]Allocator Stats for TBB: (not implemented)
+[2016.04.08-18.53.31:594][993]LogWorld: PIE: Copying PIE streaming level from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap. OwningWorld: None
+[2016.04.08-18.53.31:595][993]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-18.53.31:689][993]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.08-11.53.31
+[2016.04.08-18.53.31:691][993]LogWorld: Bringing up level for play took: 0.095285
+[2016.04.08-18.53.31:702][994]LogNet: Client netspeed is 10000
+[2016.04.08-18.53.31:702][994]LogNet: Join request: /Game/TopDownBP/Maps/TopDownExampleMap?SplitscreenCount=1
+[2016.04.08-18.53.31:703][994]LogBlueprintUserMessages: [TopDownGameMode_C_2] Server: Hello
+[2016.04.08-18.53.31:704][994]LogNet: Join succeeded: 261
+[2016.04.08-18.53.32:600][ 99]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.32:606][100]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.32:614][101]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.32:623][102]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.32:631][103]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.32:639][104]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.32:648][105]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:TopDownController_C_8 controlling Pawn:TopDownCharacter_C_10 (if any of these is None then there's your problem
+[2016.04.08-18.53.33:229][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.53.33:263][172]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.04.08-18.53.33:312][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.04.08-18.53.33:328][172]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.04.08-18.53.33:328][172]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61794, Time: 2016.04.08-18.53.33
+[2016.04.08-18.53.33:328][172]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.04.08-18.53.33:328][172]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.04.08-18.53.33:328][172]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.08-18.53.33
+[2016.04.08-18.53.33:328][172]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.04.08-18.53.33:338][172]LogExit: GameNetDriver None shut down
+[2016.04.08-18.53.33:338][172]LogExit: GameNetDriver None shut down
+[2016.04.08-18.53.33:341][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208959B1E40
+[2016.04.08-18.53.33:341][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208312B7920
+[2016.04.08-18.53.45:670][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-18.53.45:670][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2997.92] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.08-18.53.45:671][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2997.92] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-18.53.45:671][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2997.92] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-18.53.45:695][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2997.95] Compile of TopDownExampleMap successful, but with 4 Warning(s) [in 24 ms]
+[2016.04.08-18.53.45:695][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2997.95] Compile of TopDownExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.08-18.53.45:695][631]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [2997.95] Compile of TopDownExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.08-18.53.46:474][631]LogSavePackage: Save=806.110962ms
+[2016.04.08-18.53.46:474][631]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/TopDownExampleMap5FF6BFB84C8D7C3EA391D38EFFB1B3F8.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2016.04.08-18.53.46:478][631]LogSavePackage: Total save time: 827.931479ms
+[2016.04.08-18.53.46:478][631]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2016.04.08-18.53.46:506][631]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.932
+[2016.04.08-19.13.52:419][827]Cmd: QUIT_EDITOR
+[2016.04.08-19.13.52:918][827]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.08-19.13.52:979][827]LogExit: Preparing to exit.
+[2016.04.08-19.13.54:101][827]LogExit: Editor shut down
+[2016.04.08-19.13.54:102][827]LogExit: Transaction tracking system shut down
+[2016.04.08-19.13.54:129][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208221E39C0
+[2016.04.08-19.13.54:542][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002084E29F880
+[2016.04.08-19.13.54:542][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020828C8D440
+[2016.04.08-19.13.54:542][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208582BDD00
+[2016.04.08-19.13.54:542][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208582BDB20
+[2016.04.08-19.13.54:542][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208582BD8A0
+[2016.04.08-19.13.54:542][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002084DE10540
+[2016.04.08-19.13.54:542][827]LogExit: Object subsystem successfully closed.
+[2016.04.08-19.13.54:598][827]LogD3D11RHI: Shutdown
+[2016.04.08-19.13.54:598][827]LogD3D11RHI: CleanupD3DDevice
+[2016.04.08-19.13.54:675][827]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.08-19.13.54:687][827]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.08-19.13.54:691][827]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.08-19.13.55:153][827]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.08-19.13.55:154][827]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.08-19.13.55:155][827]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.08-19.13.55:388][827]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.08-19.13.55:408][827]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.08-19.13.55:409][827]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.08-19.13.55:410][827]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.08-19.13.55:413][827]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.08-19.13.55:472][827]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.08-19.13.55:473][827]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.08-19.13.55:473][827]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.08-19.13.55:574][827]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.08-19.13.55:574][827]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.08-19.13.55:574][827]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.08-19.13.55:581][827]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.08-19.13.55:583][827]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.08-19.13.55:660][827]LogDerivedDataCache: Shutdown
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.08-19.13.55:660][827]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.08-19.13.55:661][827]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.08-19.13.57:664][827]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.08-19.13.57:675][827]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.08-19.13.57:676][827]LogExit: Exiting.
+[2016.04.08-19.13.57:694][827]Log file closed, 04/08/16 12:13:57

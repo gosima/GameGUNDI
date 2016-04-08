@@ -1,0 +1,516 @@
+﻿[2016.04.08-20.35.46:397][  0]Log file open, 04/08/16 13:35:46
+[2016.04.08-20.35.46:397][  0]LogInit:Display: Running engine for game: MyProject3
+[2016.04.08-20.35.46:397][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.08-20.35.46:397][  0]LogInit:Display: RandInit(1178103738) SRandInit(1178103739).
+[2016.04.08-20.35.46:397][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.04.08-20.35.46:397][  0]LogStats: Stats thread started at 0.093958
+[2016.04.08-20.35.46:397][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-20.35.46:397][  0]LogInit: API Version: 2758231
+[2016.04.08-20.35.46:397][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.08-20.35.46:397][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.08-20.35.46:397][  0]LogInit: Build Configuration: Development
+[2016.04.08-20.35.46:397][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.08-20.35.46:397][  0]LogInit: Command line:  
+[2016.04.08-20.35.46:397][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.08-20.35.46:397][  0]LogInit: Rocket: 1
+[2016.04.08-20.35.46:412][  0]LogInit: Using libcurl 7.41.0
+[2016.04.08-20.35.46:412][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.08-20.35.46:412][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.08-20.35.46:412][  0]LogInit:  - other features:
+[2016.04.08-20.35.46:412][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.08-20.35.46:412][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.08-20.35.46:412][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.08-20.35.46:412][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.08-20.35.46:412][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.08-20.35.46:412][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.08-20.35.46:412][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.08-20.35.46:412][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.08-20.35.46:412][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.08-20.35.46:412][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.08-20.35.46:436][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.08-20.35.46:440][  0]LogInit: Object subsystem initialized
+[2016.04.08-20.35.46:441][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-20.35.46:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.08-20.35.46:455][  0]LogInit: Computer: DYLANCRONKHITE
+[2016.04.08-20.35.46:455][  0]LogInit: User: Dylan
+[2016.04.08-20.35.46:455][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.04.08-20.35.46:455][  0]LogInit: High frequency timer resolution =3.222658 MHz
+[2016.04.08-20.35.46:455][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.08-20.35.46:455][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-20.35.46:455][  0]LogMemory: Process Physical Memory: 56.73 MB used, 56.73 MB peak
+[2016.04.08-20.35.46:455][  0]LogMemory: Process Virtual Memory: 59.79 MB used, 59.79 MB peak
+[2016.04.08-20.35.46:455][  0]LogMemory: Physical Memory: 8560.52 MB used, 16276.64 MB total
+[2016.04.08-20.35.46:455][  0]LogMemory: Virtual Memory: 386.80 MB used, 134217728.00 MB total
+[2016.04.08-20.35.46:595][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.08-20.35.46:991][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.04.08-20.35.46:991][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8138MB of shared system memory, 3 output[s]
+[2016.04.08-20.35.46:992][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.08-20.35.46:992][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8138MB of shared system memory, 0 output[s]
+[2016.04.08-20.35.46:992][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.08-20.35.47:002][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.08-20.35.47:002][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.08-20.35.47:013][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.08-20.35.47:027][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Intermediate/Shaders/WorkingDirectory/56444/).
+[2016.04.08-20.35.47:027][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan/AppData/Local/Temp/UnrealShaderWorkingDir/A02C6F454C484D5A058D898D59EE47D1/'.
+[2016.04.08-20.35.47:027][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.08-20.35.48:158][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.08-20.35.48:162][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.08-20.35.48:165][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.08-20.35.48:169][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.08-20.35.48:172][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.08-20.35.48:175][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.08-20.35.48:177][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.08-20.35.48:179][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.08-20.35.48:181][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.08-20.35.48:184][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.08-20.35.48:186][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.08-20.35.48:191][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.08-20.35.48:191][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.08-20.35.48:192][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.08-20.35.48:224][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.08-20.35.48:226][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.08-20.35.48:228][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.08-20.35.48:232][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.08-20.35.48:232][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.08-20.35.48:425][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.08-20.35.48:465][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Dylan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-20.35.48:465][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dylan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.08-20.35.48:465][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.08-20.35.48:465][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.08-20.35.48:465][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.08-20.35.48:465][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.08-20.35.48:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.08-20.35.48:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.08-20.35.50:363][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-20.35.50:365][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.08-20.35.50:468][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.08-20.35.50:468][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.08-20.35.50:777][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.08-20.35.51:783][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.08-20.35.51:880][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.04.08-20.35.52:050][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.35.52:113][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.35.52:122][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.35.52:129][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.35.52:329][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.08-20.35.52:329][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.08-20.35.52:381][  0]LogEngine: Initializing Engine...
+[2016.04.08-20.35.52:383][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-20.35.52:393][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.08-20.35.52:536][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.08-20.35.52:551][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-20.35.52:566][  0]LogInit: FAudioDevice initialized.
+[2016.04.08-20.35.52:583][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Dylan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-20.35.52:588][  0]LogInit: Texture streaming: Enabled
+[2016.04.08-20.35.52:592][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.08-20.35.52:592][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-20.35.52:593][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a78eb8014ef70cd8b03b5bb24a36d29d|ac59d151ef9049fc94382fb34f909f04|98f6e7c3-9a03-43c0-a7bc-b4ac692b48c2
+[2016.04.08-20.35.52:593][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.08-20.35.52:605][  0]LogInit: Transaction tracking system initialized
+[2016.04.08-20.35.52:627][  0]BlueprintLog: New page: Editor Load
+[2016.04.08-20.35.52:694][  0]LocalizationService: Info Localization service is disabled
+[2016.04.08-20.35.52:784][  0]LogConsoleResponse:Display: 
+[2016.04.08-20.35.52:936][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.08-20.35.52:981][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Content/' took 0.02s
+[2016.04.08-20.35.52:981][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.35.52:981][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.08-20.35.52:983][  0]LightingResults: New page: Lighting Build
+[2016.04.08-20.35.52:985][  0]MapCheck: New page: Map Check
+[2016.04.08-20.35.52:985][  0]LightingResults: New page: Lighting Build
+[2016.04.08-20.35.52:992][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237FDA46AC0
+[2016.04.08-20.35.53:476][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-20.35.53:476][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0007.72] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 0 ms]
+[2016.04.08-20.35.53:476][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0007.72] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-20.35.53:476][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0007.72] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-20.35.53:477][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-20.35.53:477][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0007.72] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 0 ms]
+[2016.04.08-20.35.53:477][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0007.72] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-20.35.53:477][  0]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0007.72] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-20.35.53:949][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.08-20.36.01:001][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.08-20.36.01:166][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.08-20.36.01:207][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.421ms to complete.
+[2016.04.08-20.36.01:207][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 8.227
+[2016.04.08-20.36.01:342][  0]LogCollectionManager: Loaded 0 collections in 0.001577 seconds
+[2016.04.08-20.36.01:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Collections/' took 0.01s
+[2016.04.08-20.36.01:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Developers/Dylan/Collections/' took 0.01s
+[2016.04.08-20.36.01:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Collections/' took 0.01s
+[2016.04.08-20.36.01:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.04.08-20.36.01:397][  0]LogContentBrowser: Native class hierarchy populated in 0.0056 seconds. Added 1893 classes and 338 folders.
+[2016.04.08-20.36.01:402][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.08-20.36.01:540][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.08-20.36.01:544][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.04.08-20.36.01:598][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.08-20.36.01:601][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.08-20.36.01:622][  0]LogLoad: Full Startup: 15.86 seconds (BP compile: 0.15 seconds)
+[2016.04.08-20.36.01:633][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-20.36.01:691][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.08-20.36.01:807][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.04.08-20.36.01:844][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.08-20.36.01:988][  5]LogAssetRegistry: Asset discovery search completed in 10.1185 seconds
+[2016.04.08-20.36.01:988][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.08-20.36.01:988][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.04.08-20.36.15:866][870]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/grass_patch_small.fbx)
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: AnimationCurve, ItemCount : 9
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.36.15:881][870]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.04.08-20.36.15:938][870]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/grass_patch_small.fbx
+[2016.04.08-20.36.16:003][870]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.36.18:750][870]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/grass_patch_small.fbx
+[2016.04.08-20.36.18:814][870]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.36.18:835][870]LogLinker:Warning: Can't find file '/Game/Graphics/M_grassBlades'
+[2016.04.08-20.36.18:835][870]LogLinker:Warning: Can't find file '/Game/Graphics/M_grassBlades'
+[2016.04.08-20.36.18:845][870]LogMaterial: Missing cached shader map for material M_grassBlades, compiling. 
+[2016.04.08-20.36.18:866][870]LogFbx:Warning: Triangulating static mesh Empty_Mesh
+[2016.04.08-20.36.18:890][870]LogStaticMesh: Building static mesh grass_patch_small...
+[2016.04.08-20.36.18:891][870]LogStaticMesh: Built static mesh [0.001419.2s] /Game/Graphics/grass_patch_small.grass_patch_small
+[2016.04.08-20.36.18:897][870]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.08-20.36.18:900][870]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/grass_patch.fbx)
+[2016.04.08-20.36.18:968][870]LogFbx: Loading FBX Scene from ../../../../../../Users/Dylan/Desktop/ProjectLowPoly/grass_patch.fbx
+[2016.04.08-20.36.19:034][870]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.36.19:056][870]LogFbx:Warning: Triangulating static mesh Empty_Mesh
+[2016.04.08-20.36.19:137][870]LogStaticMesh: Building static mesh grass_patch...
+[2016.04.08-20.36.19:143][870]LogStaticMesh: Built static mesh [0.005723.2s] /Game/Graphics/grass_patch.grass_patch
+[2016.04.08-20.36.19:149][870]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.08-20.36.24:158][462]LogActorFactory: Actor Factory created grass_patch
+[2016.04.08-20.36.24:159][462]LogActorFactory: Actor Factory created grass_patch_small
+[2016.04.08-20.36.30:706][246]LogActorFactory: Actor Factory created grass_patch
+[2016.04.08-20.36.30:706][246]LogActorFactory: Actor Factory created grass_patch_small
+[2016.04.08-20.36.31:746][370]LogActorFactory: Actor Factory created grass_patch
+[2016.04.08-20.36.31:768][370]LogActorFactory: Actor Factory created grass_patch_small
+[2016.04.08-20.36.35:735][841]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-20.36.36:246][900]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-20.36.36:685][952]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-20.36.37:107][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_patch)
+[2016.04.08-20.36.39:531][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_patch_small)
+[2016.04.08-20.36.47:821][268]LogRenderer: Reallocating scene render targets to support 2012x1504 (Frame:7678).
+[2016.04.08-20.36.47:899][270]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 534/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.36.50:946][632]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 490/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.36.51:451][692]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.36.52:171][778]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.36.57:861][449]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 490/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.36.58:712][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.37.01:080][830]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 501/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.37.03:660][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Scenery/grass_patch" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch.uasset" SILENT=true
+[2016.04.08-20.37.03:674][120]LogSavePackage: Save=10.486065ms
+[2016.04.08-20.37.03:674][120]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patchDBB5FD204350E012F74989A1E8EA17C7.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch.uasset'
+[2016.04.08-20.37.03:677][120]LogSavePackage: Total save time: 16.152814ms
+[2016.04.08-20.37.03:677][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch.uasset
+[2016.04.08-20.37.03:703][120]LogSavePackage: Save=9.973755ms
+[2016.04.08-20.37.03:703][120]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patch_smallE2B58EB845693E59986C9687649EB1AD.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch_small.uasset'
+[2016.04.08-20.37.03:704][120]LogSavePackage: Total save time: 11.511616ms
+[2016.04.08-20.37.03:704][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch_small.uasset
+[2016.04.08-20.37.03:788][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237CF4A56C0
+[2016.04.08-20.37.03:837][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 501/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.37.12:293][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Materials/M_grassBlades" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_grassBlades.uasset" SILENT=true
+[2016.04.08-20.37.12:305][122]LogSavePackage: Save=11.707107ms
+[2016.04.08-20.37.12:305][122]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_grassBladesC9B584384480B2270F17658B622345E6.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_grassBlades.uasset'
+[2016.04.08-20.37.12:307][122]LogSavePackage: Total save time: 13.756659ms
+[2016.04.08-20.37.12:307][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Materials/M_grassBlades.uasset
+[2016.04.08-20.37.12:381][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/Scenery/grass_patch" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch.uasset" SILENT=true
+[2016.04.08-20.37.12:393][122]LogSavePackage: Save=3.590825ms
+[2016.04.08-20.37.12:393][122]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patchFD1AB94B407CFEB496C9BF804DFBD041.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch.uasset'
+[2016.04.08-20.37.12:394][122]LogSavePackage: Total save time: 11.857294ms
+[2016.04.08-20.37.12:394][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch.uasset
+[2016.04.08-20.37.12:409][122]LogSavePackage: Save=3.707499ms
+[2016.04.08-20.37.12:409][122]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patch_smallCBCF5A3E471D30C9174F3EBEE16F0C68.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch_small.uasset'
+[2016.04.08-20.37.12:410][122]LogSavePackage: Total save time: 10.699864ms
+[2016.04.08-20.37.12:410][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/Scenery/grass_patch_small.uasset
+[2016.04.08-20.37.12:445][124]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 501/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.37.12:972][187]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.37.21:439][200]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.08-20.37.24:070][201]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.37.24:786][287]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-20.37.25:258][341]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2016.04.08-20.37.25:657][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_patch_small)
+[2016.04.08-20.37.25:935][419]Cmd: DELETE
+[2016.04.08-20.37.25:935][419]Cmd: ACTOR DELETE
+[2016.04.08-20.37.25:941][419]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-20.37.25:950][419]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.08-20.37.26:564][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_patch)
+[2016.04.08-20.37.26:792][518]Cmd: DELETE
+[2016.04.08-20.37.26:792][518]Cmd: ACTOR DELETE
+[2016.04.08-20.37.26:797][518]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-20.37.26:807][518]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.08-20.46.02:335][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-20.46.02:336][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0616.58] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.08-20.46.02:336][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0616.58] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-20.46.02:336][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0616.58] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-20.46.02:360][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0616.60] Compile of TopDownExampleMap successful, but with 4 Warning(s) [in 24 ms]
+[2016.04.08-20.46.02:360][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0616.60] Compile of TopDownExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.08-20.46.02:360][387]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [0616.60] Compile of TopDownExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.08-20.46.03:137][387]LogSavePackage: Save=804.351868ms
+[2016.04.08-20.46.03:138][387]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/TopDownExampleMap_Auto18EBA9C1C4563284249D93694A3A8454B.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2016.04.08-20.46.03:141][387]LogSavePackage: Total save time: 823.846340ms
+[2016.04.08-20.46.03:141][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2016.04.08-20.46.03:144][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.841
+[2016.04.08-20.46.03:144][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.841
+[2016.04.08-20.46.03:153][387]LogSavePackage: Save=4.518631ms
+[2016.04.08-20.46.03:153][387]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patch_small_Auto150B295D943FAEBECE5418B842B1C1B5F.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/grass_patch_small_Auto1.uasset'
+[2016.04.08-20.46.03:153][387]LogSavePackage: Total save time: 5.560629ms
+[2016.04.08-20.46.03:153][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/grass_patch_small_Auto1.uasset
+[2016.04.08-20.46.03:159][387]LogSavePackage: Save=2.306792ms
+[2016.04.08-20.46.03:159][387]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_grassBlades_Auto1399CEEB541279396878952B4953BB96C.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/M_grassBlades_Auto1.uasset'
+[2016.04.08-20.46.03:160][387]LogSavePackage: Total save time: 3.314033ms
+[2016.04.08-20.46.03:160][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/M_grassBlades_Auto1.uasset
+[2016.04.08-20.46.03:166][387]LogSavePackage: Save=2.375679ms
+[2016.04.08-20.46.03:166][387]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patch_Auto1CD1A41FE4490523B39E47BB86C67DF69.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/grass_patch_Auto1.uasset'
+[2016.04.08-20.46.03:167][387]LogSavePackage: Total save time: 3.345065ms
+[2016.04.08-20.46.03:167][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/Graphics/grass_patch_Auto1.uasset
+[2016.04.08-20.46.03:167][387]LogFileHelpers: Auto-saving content packages took 0.022
+[2016.04.08-20.46.03:517][390]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.57.45:530][498]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.57.48:179][815]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.57.49:696][995]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-20.58.18:454][691]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-21.08.06:729][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 489/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.08-21.08.16:267][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/grass_patch" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/grass_patch.uasset" SILENT=true
+[2016.04.08-21.08.16:272][579]LogSavePackage: Save=2.230147ms
+[2016.04.08-21.08.16:272][579]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patch670AFB86476A6471E5887A995E3E427E.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/grass_patch.uasset'
+[2016.04.08-21.08.16:275][579]LogSavePackage: Total save time: 5.673267ms
+[2016.04.08-21.08.16:275][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/grass_patch.uasset
+[2016.04.08-21.08.16:279][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/grass_patch_small" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/grass_patch_small.uasset" SILENT=true
+[2016.04.08-21.08.16:283][579]LogSavePackage: Save=2.463184ms
+[2016.04.08-21.08.16:283][579]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/grass_patch_small78187FCE471A978DEB3D298E8C4C7FBF.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/grass_patch_small.uasset'
+[2016.04.08-21.08.16:285][579]LogSavePackage: Total save time: 5.203780ms
+[2016.04.08-21.08.16:285][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/grass_patch_small.uasset
+[2016.04.08-21.08.16:289][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Graphics/M_grassBlades" FILE="../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/M_grassBlades.uasset" SILENT=true
+[2016.04.08-21.08.16:292][579]LogSavePackage: Save=2.382505ms
+[2016.04.08-21.08.16:292][579]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/M_grassBladesF741762341B7CD839EDBD3ABF2FB66E1.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/M_grassBlades.uasset'
+[2016.04.08-21.08.16:295][579]LogSavePackage: Total save time: 5.284768ms
+[2016.04.08-21.08.16:295][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/Graphics/M_grassBlades.uasset
+[2016.04.08-21.08.16:384][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning  Sequence  has no valid output
+[2016.04.08-21.08.16:384][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1950.63] Compile of TopDownExampleMap successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.08-21.08.16:384][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1950.63] Compile of TopDownExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.08-21.08.16:384][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1950.63] Compile of TopDownExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.08-21.08.16:408][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1950.65] Compile of TopDownExampleMap successful, but with 4 Warning(s) [in 23 ms]
+[2016.04.08-21.08.16:408][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1950.65] Compile of TopDownExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2016.04.08-21.08.16:408][579]LogBlueprint:Warning: [compiler TopDownExampleMap] Warning [1950.65] Compile of TopDownExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.04.08-21.08.17:166][579]LogSavePackage: Save=784.315308ms
+[2016.04.08-21.08.17:166][579]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Saved/TopDownExampleMap37F939CD49262E350A586092846CC0E2.tmp' to '../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2016.04.08-21.08.17:171][579]LogSavePackage: Total save time: 805.400077ms
+[2016.04.08-21.08.17:171][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Dylan/Documents/Unreal Projects/MyProject3/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2016.04.08-21.08.17:228][579]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.931
+[2016.04.08-21.08.17:515][580]Cmd: QUIT_EDITOR
+[2016.04.08-21.08.17:585][580]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.08-21.08.17:639][580]LogExit: Preparing to exit.
+[2016.04.08-21.08.18:984][580]LogExit: Editor shut down
+[2016.04.08-21.08.18:985][580]LogExit: Transaction tracking system shut down
+[2016.04.08-21.08.18:995][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023784236200
+[2016.04.08-21.08.19:169][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237A1C37880
+[2016.04.08-21.08.19:169][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237A1C934C0
+[2016.04.08-21.08.19:169][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237A6C4A200
+[2016.04.08-21.08.19:169][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237A6C4A020
+[2016.04.08-21.08.19:169][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000237A6C49C60
+[2016.04.08-21.08.19:169][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023784275C60
+[2016.04.08-21.08.19:169][580]LogExit: Object subsystem successfully closed.
+[2016.04.08-21.08.19:233][580]LogD3D11RHI: Shutdown
+[2016.04.08-21.08.19:233][580]LogD3D11RHI: CleanupD3DDevice
+[2016.04.08-21.08.19:290][580]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.08-21.08.19:300][580]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.04.08-21.08.19:300][580]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (199)
+[2016.04.08-21.08.19:300][580]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.08-21.08.19:301][580]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.08-21.08.19:301][580]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.08-21.08.19:301][580]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.08-21.08.19:301][580]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.08-21.08.19:306][580]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.08-21.08.19:306][580]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.08-21.08.19:307][580]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.08-21.08.20:187][580]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.08-21.08.20:188][580]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.08-21.08.20:189][580]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.08-21.08.20:189][580]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.08-21.08.20:189][580]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.08-21.08.20:189][580]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.08-21.08.20:189][580]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.08-21.08.20:189][580]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.08-21.08.20:202][580]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.08-21.08.20:225][580]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.08-21.08.20:225][580]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.08-21.08.20:226][580]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.08-21.08.20:227][580]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.08-21.08.20:232][580]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.08-21.08.20:294][580]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.08-21.08.20:295][580]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.08-21.08.20:295][580]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.08-21.08.20:395][580]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.08-21.08.20:395][580]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.08-21.08.20:395][580]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.08-21.08.20:400][580]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.08-21.08.20:402][580]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.08-21.08.20:488][580]LogDerivedDataCache: Shutdown
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.08-21.08.20:488][580]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.08-21.08.20:489][580]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.08-21.08.22:491][580]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.08-21.08.22:494][580]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.08-21.08.22:496][580]LogExit: Exiting.
+[2016.04.08-21.08.22:515][580]Log file closed, 04/08/16 14:08:22
